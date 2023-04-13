@@ -1,10 +1,10 @@
-@import url('./menu.css');
-@import url('./intro.css');
-@import url('./parceiros.css');
-@import url('./modelosguitarras.css');
-@import url('./lancamento.css');
-@import url('./luthier.css');
-@import url('./footer.css');
+@import url("/menu.css");
+@import url("./intro.css");
+@import url("./parceiros.css");
+@import url("./modelosguitarras.css");
+@import url("./lancamento.css");
+@import url("./luthier.css");
+@import url("./footer.css");
 
 body {
   padding: 0;
