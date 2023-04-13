@@ -1,0 +1,31 @@
+/*Footer*/
+.detalhe {
+  padding-bottom: 60px;
+}
+
+footer {
+  margin: 0 auto;
+  max-width: 1600px;
+  padding-bottom: 160px;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  gap: 32px;
+}
+
+footer .rede-social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-self: end;
+  align-items: center;
+}
+footer .menu2 {
+  display: flex;
+  gap: 48px;
+  flex-wrap: wrap;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}

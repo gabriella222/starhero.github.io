@@ -1,0 +1,7 @@
+/*Lançamento*/
+.img-lancamento img {
+  opacity: 0.6;
+}
+.img-lancamento img:hover {
+  opacity: 0.5;
+}

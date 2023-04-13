@@ -1,0 +1,49 @@
+/*Luthier*/
+
+.luthier {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-top: 200px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  padding-bottom: 200px;
+}
+.luthier-cont h2 {
+  font-size: 2.5rem;
+  padding-bottom: 28px;
+}
+
+.luthier-cont p {
+  font-size: 1.2rem;
+  max-width: 40ch;
+  color: #707070;
+  margin-bottom: 24px;
+  max-width: 30ch;
+}
+
+.btn {
+  justify-self: start;
+  background: #711414;
+  color: #ffffff;
+  text-align: center;
+  padding: 8px;
+  border-radius: 5px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background: linear-gradient(#9a2929, #620606);
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background: #711414;
+}
+.luthier {
+  justify-self: start;
+}
+.luthier img {
+  width: 560px;
+  height: 370px;
+}

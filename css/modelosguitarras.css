@@ -1,0 +1,96 @@
+/*Modelos das guitarras*/
+.modelos-guitarras {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-bottom: 200px;
+}
+.modelos-guitarras h1 {
+  padding-bottom: 160px;
+  font-size: 3rem;
+  font-weight: 500;
+  position: relative;
+}
+/* .fundoph2 {
+  z-index: -10;
+  content: "";
+  background-color: #711414;
+  height: 70px;
+  position: absolute;
+} */
+.model-img img {
+  width: 600px;
+  height: 260px;
+  object-fit: contain;
+}
+
+.model-descricao {
+  display: flex;
+  gap: 160px;
+  justify-content: space-around;
+  padding-bottom: 160px;
+}
+.model-descricao .conteudo {
+  cursor: pointer;
+}
+.model-descricao .conteudo h2 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: #707070;
+  margin-bottom: 36px;
+}
+
+.model-descricao .conteudo h2:hover {
+}
+.model-descricao:hover h2 {
+  transform-origin: center;
+  transition: transform 2s ease-in-out;
+  color: #ffffff;
+}
+.model-descricao:hover p {
+  transform-origin: center;
+  transition: transform 2s ease-in-out;
+  color: #707070;
+}
+
+.model-descricao .conteudo p {
+  font-size: 1.25rem;
+  max-width: 20ch;
+  line-height: 28px;
+}
+
+.todosmodelos {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  padding-top: 80px;
+  justify-content: center;
+}
+.todosmodelos a {
+  font-size: 1.5rem;
+  letter-spacing: 7.5%;
+  color: #c5c2c2;
+  position: relative;
+  display: flex;
+  gap: 12px;
+}
+.todosmodelos a:before {
+  display: inline-block;
+  content: "";
+  background-color: #c5c2c2;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 36px;
+  left: 0;
+  transform-origin: right;
+  /*Quer dizer que ele começa na direita*/
+  transform: scaleX(0);
+  /*Redimenciona o elemento, se estiver no zero, ele some*/
+  transition: transform 0.3s ease-in-out;
+  /*Modifica o elemento com o transform, dá o delay e diz o temporizador com ease-in-out*/
+}
+.todosmodelos a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+  /*Redimenciona o elemento, se estiver no um, ele aparece*/
+}

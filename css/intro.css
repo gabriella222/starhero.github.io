@@ -1,0 +1,42 @@
+/*Introdução*/
+
+.introducao {
+  padding-top: 120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+}
+
+.introducao-conteudo p {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  line-height: 32px;
+  letter-spacing: 0.135rem;
+  color: #b4b4b4;
+  padding-bottom: 36px;
+}
+.introducao-conteudo h1 {
+  font-size: 4rem;
+  line-height: 80px;
+  max-width: 15ch;
+  font-weight: 400;
+  position: relative;
+}
+
+.img-intro img {
+  height: 580px;
+  width: 100%;
+  object-fit: cover;
+  align-self: end;
+}
+
+.fundop::after {
+  z-index: -10;
+  content: "";
+  background-color: #711414;
+  height: 70px;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+}

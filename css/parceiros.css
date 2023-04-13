@@ -1,0 +1,36 @@
+/*Parceiros*/
+
+.parceiros {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-top: 200px;
+}
+
+.parceirop {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 300px;
+  font-size: 2.6rem;
+  font-weight: 400;
+  font-family: "Comfortaa", sans-serif;
+  color: #595959;
+  justify-content: start;
+}
+.nomesp {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 200px;
+  justify-items: space-around;
+}
+.parceirop p:hover {
+  transform: scale(1.6);
+}
+.parceiros h2 {
+  max-width: 8ch;
+  font-size: 2.6rem;
+  font-weight: 400;
+  color: #ffffff;
+}

@@ -1,0 +1,276 @@
+@import url('./menu.css');
+@import url('./intro.css');
+@import url('./parceiros.css');
+@import url('./modelosguitarras.css');
+@import url('./lancamento.css');
+@import url('./luthier.css');
+@import url('./footer.css');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+h2,
+h1,
+h3,
+p,
+a,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 1100px) {
+  .introducao-conteudo h1 {
+    font-size: 2.8rem;
+    line-height: 70px;
+  }
+  .introducao-conteudo p {
+    font-size: 1.2rem;
+    line-height: 28px;
+  }
+  .menu {
+    justify-content: start;
+    gap: 58px;
+    padding-left: 20px;
+  }
+  .parceiros {
+    padding-top: 30px;
+  }
+  .parceirop {
+    padding-left: 20px;
+    padding-top: 120px;
+    gap: 58px;
+    font-size: 2rem;
+  }
+  .parceiros h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  .nomesp {
+    gap: 100px;
+  }
+  .parceirop p:hover {
+    transform: scale(1x);
+  }
+
+  .list-parceiros {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 60px;
+    align-items: start;
+    justify-items: start;
+  }
+  .modelos-guitarras {
+    padding-left: 20px;
+  }
+  .modelos-guitarras h1 {
+    padding-bottom: 120px;
+    font-size: 2.3rem;
+    font-weight: 500;
+    position: relative;
+  }
+  .luthier {
+    padding-left: 20px;
+    gap: 0;
+  }
+  .rede-social {
+    padding-right: 20px;
+  }
+  .luthier img {
+    display: none;
+  }
+  .luthier {
+    grid-template-columns: 1fr;
+    align-content: center;
+    justify-items: center;
+  }
+}
+@media (max-width: 1400px) {
+  .parceirop {
+    padding-left: 20px;
+    padding-top: 120px;
+    gap: 58px;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 890px) {
+  .menu {
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+    padding-left: 20px;
+    padding-right: 50px;
+  }
+  .menu-cliq li {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 10px;
+    line-height: 20px;
+    /*Baseline*/
+  }
+  .introducao {
+    gap: 48px;
+    justify-items: center;
+  }
+
+  .img-intro {
+    display: none;
+  }
+  .parceirop {
+    padding-left: 20px;
+    padding-top: 120px;
+    gap: 40px;
+    font-size: 2rem;
+    justify-content: center;
+  }
+
+  .list-parceiros h2 {
+    max-width: 80ch;
+    font-size: 2rem;
+  }
+
+  .introducao {
+    grid-template-columns: 1fr;
+    padding-left: 20px;
+    padding-bottom: 120px;
+  }
+
+  .introducao-conteudo p {
+    font-size: 1rem;
+    line-height: 28px;
+  }
+  .introducao-conteudo h1 {
+    font-size: 3rem;
+    line-height: 60px;
+    max-width: 15ch;
+    font-weight: 400;
+    position: relative;
+    max-width: 20ch;
+  }
+  .modelos-guitarras h1 {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+  .model-descricao {
+    flex-direction: column;
+    gap: 32px;
+    padding-bottom: 100px;
+    justify-items: center;
+  }
+  .model-img img {
+    width: initial;
+    height: 260px;
+    object-fit: contain;
+  }
+  .model-descricao .conteudo h2 {
+    font-size: 2.5rem;
+  }
+  .model-descricao .conteudo p {
+    max-width: 60ch;
+  }
+  .luthier {
+    grid-template-columns: 1fr;
+    padding-bottom: 80px;
+    justify-items: center;
+    gap: 0px;
+  }
+  .luthier-cont h2 {
+    font-size: 3rem;
+    padding-bottom: 28px;
+  }
+
+  .luthier-cont p {
+    font-size: 1.2rem;
+    color: #707070;
+    margin-bottom: 24px;
+    max-width: 50ch;
+  }
+
+  .luthier img {
+    display: none;
+  }
+  footer {
+    align-items: center;
+    justify-items: center;
+  }
+  footer .rede-social {
+    justify-self: center;
+    padding-left: 20px;
+  }
+  footer .menu2 {
+    gap: 20px;
+    font-size: 1rem;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 680px) {
+  .menu {
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    padding-left: 20px;
+    padding-right: 0px;
+  }
+  .parceiros {
+    padding-top: 0px;
+    padding-bottom: 200px;
+  }
+  .parceirop {
+    gap: 100px;
+    justify-content: center;
+  }
+  .nomesp {
+    gap: 60px;
+    flex-direction: column;
+  }
+  .parceirop p:hover {
+    transform: scale(1x);
+  }
+  .list-parceiros h2 {
+    max-width: 80ch;
+    font-size: 2.5rem;
+  }
+  .menu-cliq img {
+    display: none;
+  }
+  .modelos-guitarras h1 {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+  .todosmodelos a {
+    font-size: 1.2rem;
+    letter-spacing: 7.5%;
+    color: #c5c2c2;
+    position: relative;
+    display: flex;
+    gap: 12px;
+  }
+  footer .menu2 {
+    gap: 20px;
+    font-size: 1rem;
+    padding-left: 20px;
+    justify-content: center;
+  }
+}
