@@ -12,8 +12,9 @@
   padding-bottom: 200px;
 }
 .luthier-cont h2 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   padding-bottom: 28px;
+  max-width: 10ch;
 }
 
 .luthier-cont p {

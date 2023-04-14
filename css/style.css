@@ -1,4 +1,4 @@
-@import url("/menu.css");
+@import url("./menu.css");
 @import url("./intro.css");
 @import url("./parceiros.css");
 @import url("./modelosguitarras.css");
@@ -91,6 +91,13 @@ li {
     padding-left: 20px;
     gap: 0;
   }
+  .luthier-cont h2 {
+    font-size: 2.5rem;
+    padding-bottom: 28px;
+    max-width: 80ch;
+  }
+
+  
   .rede-social {
     padding-right: 20px;
   }
@@ -150,6 +157,7 @@ li {
     font-size: 2rem;
   }
 
+ 
   .introducao {
     grid-template-columns: 1fr;
     padding-left: 20px;
@@ -196,8 +204,9 @@ li {
     gap: 0px;
   }
   .luthier-cont h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding-bottom: 28px;
+    max-width: 80ch;
   }
 
   .luthier-cont p {
@@ -241,6 +250,8 @@ li {
     gap: 100px;
     justify-content: center;
   }
+ 
+
   .nomesp {
     gap: 60px;
     flex-direction: column;
@@ -267,6 +278,12 @@ li {
     display: flex;
     gap: 12px;
   }
+  .luthier-cont h2 {
+    font-size: 2.4rem;
+    padding-bottom: 28px;
+    max-width: 30ch;
+  }
+
   footer .menu2 {
     gap: 20px;
     font-size: 1rem;
